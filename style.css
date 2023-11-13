@@ -1,0 +1,457 @@
+/* *{
+  margin: auto;
+} */
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1E1E1E;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 70px !important;
+  padding-bottom: 20px;
+}
+
+.main-container {
+  font-family: 'Montserrat';
+}
+
+.container-fluid {
+  max-width: 1440px;
+}
+
+
+.header-nav.scrolled {
+  background-color: #ffffff;
+  opacity: 0.98;
+}
+
+.navbar-text, .navbar-brand {
+  padding: 0 70px;
+}
+
+.navbar-text {
+}
+
+.nav-link {
+  margin-left: 30px;
+}
+
+.primary-btn {
+  background-color: #FFFFFF;
+  padding: 10px 30px;
+  border: none;
+  font-size: 16px;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border-style: solid;
+  padding: 5px 25px;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.secondary-btn:hover {
+  background-color: #ffffff;
+  border: 2px solid #1E1E1E;
+  color: #1E1E1E;
+  transition: 0.2s;
+}
+
+        /* Landing Page Style Code */
+
+#header {
+  background-image: url(images/hoodies.jpg);
+  background-size: cover;
+  background-position: 0 31%;
+  height: 400px;
+}
+
+.head {
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 70px;
+}
+
+#landing2, #landing6 {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+}
+
+.benefits {
+  max-width: 1440px;
+  font-size: 15px;
+  margin: auto;
+  text-align: center;
+  padding: 25px 70px 10px 40px;
+}
+
+.phrase {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0 0;
+  margin-bottom: 0;
+}
+
+#landing3 {
+  padding: 15px 70px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.card {
+  border-radius: 0 !important;
+}
+
+.card-body2 {
+  color: #FFFFFF !important;
+  background-color: #1E1E1E;
+  text-align: center;
+}
+
+/* .card-body2:hover {
+  background-color: #FFFFFF;
+  color: #1E1E1E !important;
+} */
+
+.card-title {
+  padding: 15px 0 10px;
+}
+
+#landing4, #landing7 {
+  max-width: 1440px;
+  margin: auto;
+  padding: 30px 70px 10px;
+}
+
+#landing5 {
+  max-width: 1440px;
+  margin: auto;
+  padding: 10px 70px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  font-size: 30px;
+}
+
+.card-img {
+  object-fit: cover;
+  object-position: 40% 45%;
+  height: 275px;
+}
+
+.no-border {
+  border: none !important;
+}
+
+#landing6 {
+  margin: 50px 0 10px;
+}
+
+.middle {
+  max-width: 1440px;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.pri-btn {
+  margin: 35px 5px;
+  background-color: #FFFFFF;
+  padding: 10px 40px;
+  border: 1px solid #1E1E1E;
+  font-size: 20px;
+}
+
+.pri-btn:hover {
+  background-color: #1E1E1E;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  transition: 0.2s;
+}
+
+.sec-btn {
+  margin: 35px 5px;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  padding: 10px 40px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.sec-btn:hover {
+  background-color: #ffffff;
+  border-color: #1E1E1E;
+  color: #1E1E1E;
+  transition: 0.2s;
+}
+
+#landing8 {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 70px 40px;
+}
+
+.product-title {
+  text-decoration: none;
+  color: #1E1E1E;
+}
+
+.title {
+  padding-top: 17px;
+}
+
+.product-img {
+  height: 310px;
+  width: 310px;
+}
+
+.pri-btn2 {
+  margin: 5px 0;
+  padding: 5px 40px;
+  font-size: 16px;
+}
+
+#landing9 {
+  background-image: url(images/cooks.jpg);
+  opacity: 90%;
+  background-size: cover;
+  background-position: 0 31%;
+  margin: 50px 0;
+  /* height: 475px; */
+}
+
+#landing10 {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.phrase2 {
+  font-size: 17px;
+  text-align: center;
+  padding:;
+}
+
+#foot {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+}
+
+.footer-links {
+  max-width: 1440px;
+  margin: auto;
+  font-size: 14px;
+  text-align: center;
+}
+
+.f-links a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 12px
+}
+
+/* Code For Main Product Page */
+
+#Product-C {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 70px;
+}
+
+.card-img-1, .card-img-2, .card-img-3, .card-img-4, .card-img-5, .card-img-6, .card-img-7, .card-img-8, .card-img-9, .card-img-10, .card-img-11 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 35%;
+  height: 310px;
+  width: 310px;
+}
+
+.card-img-1 {background-image: url(images/shortsleeve.jpg);}
+.card-img-2 {background-image: url(images/hats.jpg);}
+.card-img-3 {background-image: url(images/hoodie.jpg);}
+.card-img-4 {background-image: url(images/pants1.jpg); background-position: 30% 35%;}
+.card-img-5 {background-image: url(https://i2.pickpik.com/photos/535/376/883/t-shirt-design-book-self-boy-one-man-only-preview.jpg); background-position: 30% 35%;}
+.card-img-6 {background-image: url(https://www.trueclassictees.com/cdn/shop/products/4204_WHITENAVY_2.jpg?v=1660942758&width=480&em-format=avif&em-width=480);}
+.card-img-7 {background-image: url(images/polo.jpg); background-position: 30% 30%;}
+.card-img-8 {background-image: url(images/activewear.jpg); background-position: 30% 35%;}
+.card-img-9 {background-image: url(https://images.unsplash.com/photo-1599699542859-6865fdd2907a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFuayUyMHRvcHxlbnwwfHwwfHx8MA%3D%3D);}
+.card-img-10 {background-image: url(https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9uZyUyMHNsZWV2ZXxlbnwwfHwwfHx8MA%3D%3D);}
+.card-img-11 {background-image: url(images/mug.jpg);}
+
+.product-title {
+  text-decoration: none;
+  color: #1E1E1E;
+}
+
+.title {
+  padding-top: 17px;
+}
+
+#Product-D {
+  padding: 50px 0 100px;
+}
+
+.product-d {
+  background-color: #1E1E1E;
+  max-width: 1300px;
+  margin: auto;
+  text-align: center;
+  padding: 70px 70px;
+  color: #ffffff;
+}
+
+.product-img {
+  /* border: 1px solid #1E1E1E; */
+  object-fit: cover;
+  object-position: 10% 10%;
+}
+
+.bor {
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+/* Code For Products Tee Shirt Page */
+
+
+#details {
+  max-width: 1440px;
+  padding: 100px 70px 50px;
+  margin: auto;
+}
+
+.details-box {
+  padding: 20px 50px;
+}
+
+.tri-button {
+  background-color: #1E1E1E;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  width: 400px;
+  font-size: 20px;
+}
+
+.tri-button:hover {
+  background-color: #ffffff;
+  border: 1px solid #1E1E1E;
+  color: #1E1E1E;
+  transition: 0.2s;
+}
+
+.box {
+  height: 20px;
+  width: 20px;
+  border: 0.1px solid #1E1E1E;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.red {background-color: red;}
+.black {background-color: black;}
+.gray {background-color: gray;}
+.blue {background-color: blue;}
+.royal {background-color: #4169e1;}
+.navy {background-color: navy;}
+.white {background-color: white;}
+.green {background-color: green;}
+.pink {background-color: pink;}
+.purple {background-color: purple;}
+.orange {background-color: orange;}
+.yellow {background-color: yellow;}
+
+#other-items {
+  max-width: 1440px;
+  padding: 0 70px;
+  margin: auto;
+}
+
+/* .image-wrapper {
+  height: 22vw;
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+} */
+
+.card-wrapper {
+  display: flex;
+}
+
+.card-title {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.card-title-link {
+  color: #1E1E1E;
+  text-decoration: none;
+}
+
+/* .card {
+  margin: 1em;
+  width: calc(100%/6);
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+} */
+
+.fourth-btn {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  border: none;
+  padding: 5px 15px;
+  font-size: 12px;
+}
+
+#contact1 {
+  max-width: 1440px;
+  padding: 100px 70px;
+  margin: auto;
+}
+
+.submit-btn {
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+}
